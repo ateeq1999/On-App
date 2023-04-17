@@ -5,6 +5,8 @@ const Posts: CollectionConfig = {
   access: {
     create: () => true,
     read: () => true,
+    update: () => true,
+    delete: () => true,
   },
   fields: [
     {
@@ -29,6 +31,11 @@ const Posts: CollectionConfig = {
       name: 'text',
       label: 'Text',
       type: 'richText'
+    },
+    {
+      name: 'phone',
+      label: 'Phone',
+      type: 'text'
     },
     {
       name: 'photo',
