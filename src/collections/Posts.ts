@@ -12,8 +12,8 @@ const Posts: CollectionConfig = {
     {
       name: 'area',
       label: 'Area',
-      type: 'relationship',
-      relationTo: 'areas',
+      type: 'select',
+      options: ['K','B','O']
     },
     {
       name: 'category',

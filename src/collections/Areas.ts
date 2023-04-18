@@ -10,7 +10,8 @@ const Areas: CollectionConfig = {
     {
       name: 'name',
       label: 'Name',
-      type: 'text',
+      type: 'select',
+      options: ['K','B','O']
     },
   ],
   timestamps: false,
